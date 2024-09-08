@@ -2,7 +2,7 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import StandardScaler 
 
 # Load the trained model (ANN)
 model = tf.keras.models.load_model("ann_model.h5")
